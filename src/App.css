@@ -114,10 +114,10 @@ html {
 .forecast {
   display: flex;
   justify-content: center;
-  margin-top: 20px; /* Adjust the margin as needed for spacing */
+  margin-top: 20px;
 }
 
 .forecast-item {
   text-align: center;
-  margin: 0 10px;  /* Adjust the margin as needed for spacing */
+  margin: 0 10px;  
 }

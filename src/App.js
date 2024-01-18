@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFrown } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
-function GfGWeatherApp() {
+function WeatherApp() {
   const [input, setInput] = useState('');
   const [weather, setWeather] = useState({
     loading: false,
@@ -28,6 +28,7 @@ function GfGWeatherApp() {
       'Nëntor',
       'Dhjetor',
     ];
+
     const WeekDays = [
       'E Diel',
       'E Hënë ',
@@ -37,6 +38,7 @@ function GfGWeatherApp() {
       'E Premte',
       'E Shtunë',
     ];
+
     const currentDate = new Date();
     const date = `${WeekDays[currentDate.getDay()]} ${currentDate.getDate()} ${months[currentDate.getMonth()]
       }`;
@@ -132,4 +134,4 @@ function GfGWeatherApp() {
   );
 }
 
-export default GfGWeatherApp;
+export default WeatherApp;
